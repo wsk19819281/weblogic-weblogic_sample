@@ -1,0 +1,6 @@
+<system-libraries>
+  <library path="server/lib/api.jar" javadoc="http://java.sun.com/j2ee/1.4/docs/api"/>
+  <library path="server/lib/wls-api.jar" javadoc="http://edocs.bea.com/wls/docs103/javadocs"/>
+  <library path="server/lib/weblogic.jar"/>
+  <library path="server/lib/webservices.jar"/>
+</system-libraries>

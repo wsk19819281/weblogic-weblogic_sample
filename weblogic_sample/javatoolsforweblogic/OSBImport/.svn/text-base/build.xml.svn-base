@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<project name="ConfigExport">
+
+	<property file="./build.properties"/>
+	<property name="bea.home"               value="${fmw.home}"/>   
+	<property name="build"                  value="build"/>
+	<property name="dist"                   value="dist"/>
+	<property name="domain.export.script"   value="export.py"/>
+	<property name="domain.import.script"   value="import.py"/>
+	<property name="eclipse.home" value="${fmw.home}/oepe_11gR1PS4"/>
+	<property name="export.config.file"     value="export.properties"/>
+	<property name="import.config.file"     value="import.properties"/>
+	<property name="metadata.dir" value="${workspace.dir}/.metadata"/>
+	<property name="osb.home" value="${fmw.home}/Oracle_OSB1"/>
+	<property name="weblogic.home" value="${fmw.home}/wlserver_10.3"/>
+
+  <path id="class.path">
+  	<pathelement path="${bea.home}/wlserver_10.3/server/lib/weblogic.jar"/>
+  	<pathelement path="${bea.home}/Oracle_OSB1/lib/sb-kernel-api.jar"/>
+  	<pathelement path="${bea.home}/Oracle_OSB1/lib/sb-kernel-impl.jar"/>
+        <pathelement path="${bea.home}/Oracle_OSB1/modules/com.bea.common.configfwk_1.5.0.0.jar"/>
+  </path>
+ 
+
+  <taskdef classpath="${bea.home}/wlserver_10.3/server/lib/weblogic.jar" name="wlst" classname="weblogic.ant.taskdefs.management.WLSTTask"/>
+  
+  
+   <target name="exportFromWorkspace">
+      <!--delete failonerror="false" includeemptydirs="true"
+              dir="${metadata.dir}"/-->
+      <java dir="${eclipse.home}"
+            jar="${eclipse.home}/plugins/org.eclipse.equinox.launcher_1.1.1.R36x_v20101122_1400.jar" 
+            fork="true" failonerror="true" maxmemory="768m">
+         <jvmarg line="-XX:MaxPermSize=256m"/>   
+         <arg line="-data ${workspace.dir}"/>
+         <arg line="-application com.bea.alsb.core.ConfigExport"/>
+         <arg line="-configProject ${config.project}"/>
+         <arg line="-configJar ${config.jar}"/>
+         <arg line="-configSubProjects ${config.subprojects}"/>
+         <arg line="-includeDependencies ${config.includeDependencies}"/>
+         <sysproperty key="weblogic.home" value="${weblogic.home}"/>
+         <sysproperty key="osb.home" value="${osb.home}"/>
+         <sysproperty key="osgi.bundlefile.limit" value="500"/>
+         <sysproperty key="harvester.home" value="${osb.home}/harvester"/>
+         <sysproperty key="osgi.nl" value="en_US"/>
+         <sysproperty key="sun.lang.ClassLoader.allowArraySyntax" value="true"/>
+      </java>
+   </target>
+
+  <target name="export">
+    <echo message="exportscript: ${domain.export.script}"/>
+    <java classname="weblogic.WLST" fork="true">
+        <arg line="${domain.export.script} ${export.config.file}"/>
+        <classpath refid="class.path"/>
+    </java>
+  </target>
+
+  <target name="import">
+    <echo message="importscript: ${domain.import.script}"/>
+    <java classname="weblogic.WLST" fork="true">
+        <arg line="${domain.import.script} ${import.config.file}"/>
+        <classpath refid="class.path"/>
+    </java>
+  </target>
+
+  <target name="clean">
+    <delete dir="${dist}"/>
+    <delete dir="${build}"/>
+    <mkdir dir="${dist}"/>
+    <mkdir dir="${build}"/>
+  </target>   
+
+   
+</project>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft
+END
+HGCHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/HGCHelper.java
+END
+TrackHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/TrackHelper.java
+END
+GUFT.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/GUFT.java
+END
+RTPHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/RTPHelper.java
+END
+EtaHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/EtaHelper.java
+END
+HGMHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/HGMHelper.java
+END
+RTITrainHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/RTITrainHelper.java
+END
+RTIRouteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/gu/ft/RTIRouteHelper.java
+END

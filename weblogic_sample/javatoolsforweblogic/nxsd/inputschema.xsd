@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:nxsd="http://xmlns.oracle.com/pcbpel/nxsd"
+            xmlns:tns="http://TargetNamespace.com/ServiceName"
+            targetNamespace="http://TargetNamespace.com/ServiceName"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified"
+
+            nxsd:version="NXSD"
+            nxsd:stream="chars"
+            nxsd:encoding="US-ASCII"
+>
+
+
+  <xsd:element name="Root-Element" nxsd:style="array" nxsd:cellSeparatedBy="${eol}">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="company" type="xsd:string" nxsd:style="fixedLength" nxsd:length="22" />
+        <xsd:element name="address" type="xsd:string" nxsd:style="fixedLength" nxsd:length="10" />
+        <xsd:element name="city" type="xsd:string" nxsd:style="fixedLength" nxsd:length="10" />
+        <xsd:element name="region" type="xsd:string" nxsd:style="fixedLength" nxsd:length="10" />
+        <xsd:element name="country" type="xsd:string" nxsd:style="fixedLength" nxsd:length="5" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

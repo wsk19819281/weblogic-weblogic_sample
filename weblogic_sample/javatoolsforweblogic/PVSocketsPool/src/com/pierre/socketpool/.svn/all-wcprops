@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/PVSocketsPool/src/com/pierre/socketpool
+END
+PVPoolableObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/PVSocketsPool/src/com/pierre/socketpool/PVPoolableObjectFactory.java
+END
+PVGenericObjectPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/PVSocketsPool/src/com/pierre/socketpool/PVGenericObjectPool.java
+END
+PVClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/PVSocketsPool/src/com/pierre/socketpool/PVClient.java
+END
+PVOpenManySockets.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/PVSocketsPool/src/com/pierre/socketpool/PVOpenManySockets.java
+END
+PVServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/PVSocketsPool/src/com/pierre/socketpool/PVServer.java
+END

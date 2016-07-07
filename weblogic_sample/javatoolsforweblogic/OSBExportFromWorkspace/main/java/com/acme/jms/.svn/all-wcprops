@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/jms
+END
+JNDITools.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/jms/JNDITools.java
+END
+SendJmsMessageHeaderProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/jms/SendJmsMessageHeaderProperties.java
+END
+MyQueueBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/48/trunk/OSBExportFromWorkspace/main/java/com/acme/jms/MyQueueBrowser.java
+END

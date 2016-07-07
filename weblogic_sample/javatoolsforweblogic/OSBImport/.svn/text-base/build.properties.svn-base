@@ -1,0 +1,30 @@
+fmw.home=C:/bea1035/
+
+wls.username=weblogic
+wls.password=weblogic1
+wls.server=t3://localhost:7001
+
+#properties for workspace export
+config.project="OSBConfiguration1"
+config.jar=c:/tmp/sbconfigPV.jar
+config.subprojects="OSBProject1"
+config.includeDependencies=true
+workspace.dir=C:/Users/pierre/.hudson/jobs/OSBProject1/workspace
+
+# export properties  
+  
+# specify a project or use None  
+#export.project=EJB  
+export.project=None
+export.jar=c:/tmp/sbconfigPV.jar
+#export.customFile = c:/temp/cust.xml  
+export.customFile=None
+  
+#import properties  
+  
+#specify a project or use None  
+import.project=None
+#import.project=EJB
+import.jar=c:/tmp/sbconfigPV.jar
+#import.customFile=None  
+import.customFile=c:/tmp/cust.xml

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/62/trunk/OSBArtifacts
+END
+OSBSplitJoinExample_sbconfig.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/37/trunk/OSBArtifacts/OSBSplitJoinExample_sbconfig.jar
+END
+sbconfigRRJMS.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/47/trunk/OSBArtifacts/sbconfigRRJMS.jar
+END
+HAFileAdapterTest.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/60/trunk/OSBArtifacts/HAFileAdapterTest.jar
+END
+sbconfigMyRRJMS.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/46/trunk/OSBArtifacts/sbconfigMyRRJMS.jar
+END
+BSForEJB.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/11/trunk/OSBArtifacts/BSForEJB.xml
+END
+sbconfigsimpleread.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/57/trunk/OSBArtifacts/sbconfigsimpleread.jar
+END
+sbconfigAlertTest.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/62/trunk/OSBArtifacts/sbconfigAlertTest.jar
+END
+OSBCachingTests.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/13/trunk/OSBArtifacts/OSBCachingTests.jar
+END

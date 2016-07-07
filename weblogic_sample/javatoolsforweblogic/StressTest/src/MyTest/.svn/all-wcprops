@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/8/trunk/StressTest/src/MyTest
+END
+HelloWorldSOAP12BindingQSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/StressTest/src/MyTest/HelloWorldSOAP12BindingQSService.java
+END
+HelloWorldPortType.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8/trunk/StressTest/src/MyTest/HelloWorldPortType.java
+END
+HelloWorldSOAP12BindingQSServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/StressTest/src/MyTest/HelloWorldSOAP12BindingQSServiceLocator.java
+END
+HelloWorldSOAP12BindingStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8/trunk/StressTest/src/MyTest/HelloWorldSOAP12BindingStub.java
+END

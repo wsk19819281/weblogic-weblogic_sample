@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl
+END
+TDefinitions.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TDefinitions.java
+END
+TFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TFault.java
+END
+jaxb.properties
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/jaxb.properties
+END
+TExtensibleAttributesDocumented.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TExtensibleAttributesDocumented.java
+END
+TMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TMessage.java
+END
+TPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TPort.java
+END
+TPortType.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TPortType.java
+END
+TDocumented.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TDocumented.java
+END
+TBindingOperationFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TBindingOperationFault.java
+END
+TBindingOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TBindingOperation.java
+END
+TOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TOperation.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/package-info.java
+END
+TBindingOperationMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TBindingOperationMessage.java
+END
+TService.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TService.java
+END
+TParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TParam.java
+END
+WSDLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/40/trunk/WSDLParser/org/example/wsdl/WSDLParser.java
+END
+TTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TTypes.java
+END
+TExtensibilityElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TExtensibilityElement.java
+END
+TPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TPart.java
+END
+TDocumentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TDocumentation.java
+END
+TExtensibleDocumented.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TExtensibleDocumented.java
+END
+TImport.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TImport.java
+END
+TBinding.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/TBinding.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/41/trunk/WSDLParser/org/example/wsdl/ObjectFactory.java
+END

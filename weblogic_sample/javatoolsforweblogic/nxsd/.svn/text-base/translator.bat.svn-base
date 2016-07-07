@@ -1,0 +1,1 @@
+java -cp test-translator.jar;C:\bea1035\Oracle_OSB1\soa\modules\oracle.soa.fabric_11.1.1\bpm-infra.jar;C:\bea1035\oracle_common\modules\oracle.xdk_11.1.0\xmlparserv2.jar;C:\bea1035\oracle_common\modules\oracle.xdk_11.1.0\xml.jar;C:\bea1035\jrockit_160_24_D1.1.2-4\missioncontrol\plugins\com.jrockit.mc.rjmx_4.0.1.134472\lib\mail.jar xlator.util.Translate %*

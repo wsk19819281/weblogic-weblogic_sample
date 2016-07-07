@@ -1,0 +1,1 @@
+translator.bat -schema inputschema.xsd -inbound -output result.xml -root Root-Element inputfile.dat

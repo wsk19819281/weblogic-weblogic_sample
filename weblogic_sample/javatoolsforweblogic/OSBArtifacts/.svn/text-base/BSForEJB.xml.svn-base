@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-fragment xmlns:ser="http://www.bea.com/wli/sb/services" xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:http="http://www.bea.com/wli/sb/transports/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:env="http://www.bea.com/wli/config/env" xmlns:ejb="http://www.bea.com/wli/sb/transports/ejb">
+  <ser:coreEntry isProxy="false" isEnabled="true">
+    <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" transport-typed="true" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
+      <con:binding>
+        <con:name>JwsServiceSoapBinding</con:name>
+        <con:namespace>http://www.openuri.org/</con:namespace>
+      </con:binding>
+    </ser:binding>
+    <ser:monitoring isEnabled="false">
+      <ser:aggregationInterval>10</ser:aggregationInterval>
+    </ser:monitoring>
+    <ser:sla-alerting isEnabled="true">
+      <ser:alertLevel>normal</ser:alertLevel>
+    </ser:sla-alerting>
+  </ser:coreEntry>
+  <ser:endpointConfig>
+    <tran:provider-id>ejb</tran:provider-id>
+    <tran:inbound>false</tran:inbound>
+    <tran:URI>
+      <env:value>ejb:JNDIProvider:GeoOsbCoherenceBean#com.acme.geoosb.ejb.GeoOsbCoherenceBeanRemote</env:value>
+    </tran:URI>
+    <tran:outbound-properties>
+      <tran:load-balancing-algorithm>round-robin</tran:load-balancing-algorithm>
+      <tran:retry-count>0</tran:retry-count>
+      <tran:retry-interval>30</tran:retry-interval>
+      <tran:retry-application-errors>true</tran:retry-application-errors>
+    </tran:outbound-properties>
+    <tran:provider-specific>
+      <ejb:security>
+        <ejb:passClientIdentity>false</ejb:passClientIdentity>
+      </ejb:security>
+      <ejb:service>
+        <ejb:clientJar ref="GeoOsbCoherenceProject/geoosbcoherenceclient"/>
+        <ejb:ejbBizService classname="com.acme.geoosb.ejb.GeoOsbCoherenceBeanRemote">
+          <ejb:method name="getCityByCityId" signature="com.acme.cache.geo.data.City getCityByCityId(long) throws java.lang.Exception" exclude="false">
+            <ejb:operation>getCityByCityId</ejb:operation>
+            <ejb:param name="cityId" type="long"/>
+            <ejb:return name="return" type="com.acme.cache.geo.data.City"/>
+          </ejb:method>
+          <ejb:method name="getCityByLikeCityName" signature="java.util.Set getCityByLikeCityName(java.lang.String) throws java.lang.Exception" exclude="false">
+            <ejb:operation>getCityByLikeCityName</ejb:operation>
+            <ejb:param name="cityName" type="java.lang.String"/>
+            <ejb:return name="return" type="java.util.Set"/>
+          </ejb:method>
+          <ejb:method name="getSiteBySiteId" signature="com.acme.cache.geo.data.Site getSiteBySiteId(long) throws java.lang.Exception" exclude="false">
+            <ejb:operation>getSiteBySiteId</ejb:operation>
+            <ejb:param name="siteId" type="long"/>
+            <ejb:return name="return" type="com.acme.cache.geo.data.Site"/>
+          </ejb:method>
+        </ejb:ejbBizService>
+        <ejb:targetNamespace>http://www.openuri.org/</ejb:targetNamespace>
+        <ejb:style>Document Wrapped</ejb:style>
+        <ejb:encoding>Literal</ejb:encoding>
+      </ejb:service>
+      <ejb:ejb30>true</ejb:ejb30>
+    </tran:provider-specific>
+  </ser:endpointConfig>
+</xml-fragment>
+

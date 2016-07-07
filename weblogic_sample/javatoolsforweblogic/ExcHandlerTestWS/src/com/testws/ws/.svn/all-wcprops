@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/ExcHandlerTestWS/src/com/testws/ws
+END
+MyTestWS.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/ExcHandlerTestWS/src/com/testws/ws/MyTestWS.java
+END
+MyTestWSService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/ExcHandlerTestWS/src/com/testws/ws/MyTestWSService.wsdl
+END
+WSExceptionHandling.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/ExcHandlerTestWS/src/com/testws/ws/WSExceptionHandling.java
+END

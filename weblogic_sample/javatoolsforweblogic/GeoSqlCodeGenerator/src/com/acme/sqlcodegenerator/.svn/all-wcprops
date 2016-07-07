@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/GeoSqlCodeGenerator/src/com/acme/sqlcodegenerator
+END
+GenerateSQLFromDelimitedFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12/trunk/GeoSqlCodeGenerator/src/com/acme/sqlcodegenerator/GenerateSQLFromDelimitedFile.java
+END
+GeoSQLCodeAdjuster.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/GeoSqlCodeGenerator/src/com/acme/sqlcodegenerator/GeoSQLCodeAdjuster.java
+END

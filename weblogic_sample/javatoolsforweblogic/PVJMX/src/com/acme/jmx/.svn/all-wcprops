@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/39/trunk/PVJMX/src/com/acme/jmx
+END
+Hello.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/39/trunk/PVJMX/src/com/acme/jmx/Hello.java
+END
+HelloMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/39/trunk/PVJMX/src/com/acme/jmx/HelloMBean.java
+END
+SimpleAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/39/trunk/PVJMX/src/com/acme/jmx/SimpleAgent.java
+END
